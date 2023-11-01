@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
 	message?: string;
 	title = 'angular-structure';
-	getMessages(): boolean {
-		return true;
+	getMessages(): string {
+		return 'Hola mundo';
 	}
 }
