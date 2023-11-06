@@ -1,4 +1,4 @@
-name: Angular-CI
+name: Angular-CI-CD
 # Controls whn the workflow will run
 on:
 # Triggers the workflow on push or pull request events ut only for the "master" branch
@@ -15,7 +15,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     - name: Checkout
-    - uses: actions/checkout@v4.1.1
+      uses: actions/checkout@v4.1.1
     # Setup Node.js
     - name: Setup nodejs
       uses: actions/setup-node@v4.0.0
@@ -23,12 +23,12 @@ jobs:
         node-version: "18"
     # Install dependencies
     - name: Install deps
-    - run: npm i
+      run: npm i
     - name: Build app bundle
-    - run: npm run build
+      run: npm run build
     # Deploy to Netlify
     - name: Deploy to Netlify
-    - uses: nwtgck/actions-netlify@v2.1.0
+      uses: nwtgck/actions-netlify@v2.1.0
       with:
       # Publish directory
         publish-dir: './build'
