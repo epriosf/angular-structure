@@ -22,7 +22,7 @@ jobs:
       with:
         node-version: "18"
     # Install dependencies
-    - name: Install deps
+    - name: Install dependencies
       run: npm i
     - name: Build app bundle
       run: npm run build
