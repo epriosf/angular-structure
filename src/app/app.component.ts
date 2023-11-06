@@ -9,6 +9,6 @@ export class AppComponent {
 	message?: string;
 	title = 'angular-structure';
 	getMessages(): string {
-		return 'Hola mundo';
+		return 'Hola mundo v2';
 	}
 }
