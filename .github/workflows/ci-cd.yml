@@ -31,7 +31,7 @@ jobs:
       uses: nwtgck/actions-netlify@v2.1.0
       with:
       # Publish directory
-        publish-dir: '/'
+        publish-dir: './dist'
         production-branch: master
         deploy-message: "Deploy from Github Actions"
         enable-pull-request-comment: true
