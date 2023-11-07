@@ -24,8 +24,6 @@
     "@syncfusion/ej2-angular-grids": "^23.1.43",
     "@syncfusion/ej2-angular-lists": "^23.1.43",
     "@syncfusion/ej2-angular-navigations": "^23.1.43",
-    "@syncfusion/ej2-bootstrap-dark-theme": "^23.1.43",
-    "@syncfusion/ej2-material-theme": "^23.1.43",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.13.0"

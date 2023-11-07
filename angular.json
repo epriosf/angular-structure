@@ -87,8 +87,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css",
-              "node_modules/@syncfusion/ej2/bootstrap-dark.css"
+              "src/styles.css"
             ],
             "scripts": []
           }
